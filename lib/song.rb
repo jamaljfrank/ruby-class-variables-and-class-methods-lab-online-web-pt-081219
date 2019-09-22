@@ -6,7 +6,6 @@ def initialize(name, artist, genre)
   @@count += 1 
 end
 
-def name(name)
-  @name
+def name
 end
 end
