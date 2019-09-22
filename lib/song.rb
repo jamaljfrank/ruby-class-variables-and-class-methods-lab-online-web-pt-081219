@@ -25,7 +25,7 @@ end
 def self.genres
   @@genres.uniq
 end
-
+end
 
 
 
