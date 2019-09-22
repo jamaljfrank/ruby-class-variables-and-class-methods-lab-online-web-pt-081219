@@ -28,11 +28,20 @@ end
 
 def self.genre_count
   genre_hash = Hash.new(0) # key: genre => value "songs"
-  @@genres.each do |genre|
-    genre_hash[genre] += 1 
+    @@genres.each do |genre|
+      genre_hash[genre] += 1 
   end
   genre_hash
 end 
+
+def self.artist_count
+  artist_hash = Hash.new(0)
+  @@artists.each do |artist|
+    artist_hash[artist] += 1
+  end
+  artist_hash
+end
+end
 
 
 
